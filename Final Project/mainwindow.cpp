@@ -120,3 +120,10 @@ void MainWindow::on_pushButton_clicked(){
     ui->tabWidget->setCurrentIndex(0);
 }
 
+
+void MainWindow::on_btnInfo_clicked()
+{
+    QMessageBox::information(this,"","Information Added.");
+    ui->btnInfo->setText("Edit Info");
+}
+
